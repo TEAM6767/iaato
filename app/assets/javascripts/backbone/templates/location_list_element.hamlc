@@ -1,0 +1,13 @@
+#location_element
+  %table
+    %tr
+      %td
+        #location_name= $location_name
+      %td
+        #location_capacity= $location_capacity
+    %tr
+      %td
+        #location_description= $location_description
+      %td
+        #location_location_map
+          %button{:onClick => "#map?location=id_location"}

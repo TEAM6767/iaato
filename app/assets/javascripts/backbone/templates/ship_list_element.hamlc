@@ -1,0 +1,13 @@
+#ship_element
+  %table
+    %tr
+      %td
+        #ship_name= $ship_name
+      %td
+        #ship_capacity= $ship_capacity
+    %tr
+      %td
+        #ship_description= $ship_description
+      %td
+        #ship_location_map
+          %button{:onClick => "#map?ship=id_ship"}

@@ -1,0 +1,3 @@
+nav_element
+  a { :id => "message", :href => "$nav_hred" }
+    #nav_img { :src => "$nav_src" }
